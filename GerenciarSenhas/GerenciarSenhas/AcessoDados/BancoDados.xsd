@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BancoDados" targetNamespace="http://tempuri.org/BancoDados.xsd" xmlns:mstns="http://tempuri.org/BancoDados.xsd" xmlns="http://tempuri.org/BancoDados.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BancoDados" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BancoDados" msprop:Generator_UserDSName="BancoDados">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtbUsuario" msprop:Generator_TableClassName="dtbUsuarioDataTable" msprop:Generator_TableVarName="tabledtbUsuario" msprop:Generator_TablePropName="dtbUsuario" msprop:Generator_RowDeletingName="dtbUsuarioRowDeleting" msprop:Generator_RowChangingName="dtbUsuarioRowChanging" msprop:Generator_RowEvHandlerName="dtbUsuarioRowChangeEventHandler" msprop:Generator_RowDeletedName="dtbUsuarioRowDeleted" msprop:Generator_UserTableName="dtbUsuario" msprop:Generator_RowChangedName="dtbUsuarioRowChanged" msprop:Generator_RowEvArgName="dtbUsuarioRowChangeEvent" msprop:Generator_RowClassName="dtbUsuarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome" type="xs:string" default="" />
+              <xs:element name="senha" msprop:Generator_ColumnVarNameInTable="columnsenha" msprop:Generator_ColumnPropNameInRow="senha" msprop:Generator_ColumnPropNameInTable="senhaColumn" msprop:Generator_UserColumnName="senha" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="lembreteSenha" msprop:Generator_ColumnVarNameInTable="columnlembreteSenha" msprop:Generator_ColumnPropNameInRow="lembreteSenha" msprop:Generator_ColumnPropNameInTable="lembreteSenhaColumn" msprop:Generator_UserColumnName="lembreteSenha" type="xs:string" default="" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtbSenhas" msprop:Generator_TableClassName="dtbSenhasDataTable" msprop:Generator_TableVarName="tabledtbSenhas" msprop:Generator_TablePropName="dtbSenhas" msprop:Generator_RowDeletingName="dtbSenhasRowDeleting" msprop:Generator_RowChangingName="dtbSenhasRowChanging" msprop:Generator_RowEvHandlerName="dtbSenhasRowChangeEventHandler" msprop:Generator_RowDeletedName="dtbSenhasRowDeleted" msprop:Generator_UserTableName="dtbSenhas" msprop:Generator_RowChangedName="dtbSenhasRowChanged" msprop:Generator_RowEvArgName="dtbSenhasRowChangeEvent" msprop:Generator_RowClassName="dtbSenhasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idUsuario" msprop:Generator_ColumnVarNameInTable="columnidUsuario" msprop:Generator_ColumnPropNameInRow="idUsuario" msprop:Generator_ColumnPropNameInTable="idUsuarioColumn" msprop:Generator_UserColumnName="idUsuario" type="xs:int" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao" type="xs:string" minOccurs="0" />
+              <xs:element name="senha" msprop:Generator_ColumnVarNameInTable="columnsenha" msprop:Generator_ColumnPropNameInRow="senha" msprop:Generator_ColumnPropNameInTable="senhaColumn" msprop:Generator_UserColumnName="senha" type="xs:string" minOccurs="0" />
+              <xs:element name="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" msprop:Generator_UserColumnName="usuario" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="site" msprop:Generator_ColumnVarNameInTable="columnsite" msprop:Generator_ColumnPropNameInRow="site" msprop:Generator_ColumnPropNameInTable="siteColumn" msprop:Generator_UserColumnName="site" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="outros" msprop:Generator_ColumnVarNameInTable="columnoutros" msprop:Generator_ColumnPropNameInRow="outros" msprop:Generator_ColumnPropNameInTable="outrosColumn" msprop:Generator_UserColumnName="outros" type="xs:string" default="" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtbUsuario" />
+      <xs:field xpath="mstns:nome" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="dtbSenhas_dtbUsuario" msdata:parent="dtbSenhas" msdata:child="dtbUsuario" msdata:parentkey="idUsuario" msdata:childkey="id" msprop:Generator_UserChildTable="dtbUsuario" msprop:Generator_ChildPropName="GetdtbUsuarioRows" msprop:Generator_UserRelationName="dtbSenhas_dtbUsuario" msprop:Generator_ParentPropName="dtbSenhasRow" msprop:Generator_RelationVarName="relationdtbSenhas_dtbUsuario" msprop:Generator_UserParentTable="dtbSenhas" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

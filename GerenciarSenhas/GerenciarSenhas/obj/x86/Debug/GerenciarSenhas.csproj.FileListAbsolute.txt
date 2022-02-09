@@ -1,0 +1,21 @@
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\bin\Debug\GerenciarSenhas.exe
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\bin\Debug\GerenciarSenhas.pdb
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Properties.Resources.resources
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.exe
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.pdb
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Interface.frmAutentificacao.resources
+D:\Administracao\Desenvolvimento\Projetos\ProjectsC#\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Interface.frmSenhas.resources
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Interface.frmNovoUsuario.resources
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Interface.frmAutentificacao.resources
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Interface.frmSenhas.resources
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Properties.Resources.resources
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.csproj.GenerateResource.Cache
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\bin\Debug\Protect Keys.exe
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\bin\Debug\Protect Keys.pdb
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\Protect Keys.exe
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\Protect Keys.pdb
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.csprojResolveAssemblyReference.cache
+D:\Jeferson\Other Docs\Programacao\Projetos\GerenciarSenhas\GerenciarSenhas\obj\x86\Debug\GerenciarSenhas.Interface.frmOutros.resources
